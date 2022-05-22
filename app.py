@@ -7,7 +7,8 @@ session = InstaPy(username=login, password=password,headless_browser=False)
 session.set_do_like(enabled=True, percentage=100)
 #likeconfigs
 session.set_delimit_liking(enabled=True, max_likes=500, min_likes=75)
-session.like_by_tags()
+session.like_by_tags(['manaus','amazonas','manausamazonas','manauscity','amazonia',
+                        'makeup','manausam','natureza'])
 
 #naolikes
 session.dont_like('homem','policial','man','men','homens','modamasculina','brasil','homem','boy' ,
