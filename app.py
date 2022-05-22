@@ -1,7 +1,6 @@
 from instapy import InstaPy
-from ig import login,password
 
-session = InstaPy(username=login, password=password,headless_browser=False)
+session = InstaPy(username='*****', password='********',headless_browser=False)
 
 #likes
 session.set_do_like(enabled=True, percentage=100)
