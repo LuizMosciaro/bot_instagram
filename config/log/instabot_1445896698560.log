@@ -1,0 +1,13 @@
+2022-05-22 17:30:15,754 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-05-22 17:30:15,754 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\RIG-Mosciaro\AppData\Local\Programs\Python\Python310\lib\site-packages\instabot\bot\bot.py
+2022-05-22 17:30:15,766 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-05-22 17:30:16,298 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2022-05-22 17:30:16,740 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-05-22 17:30:17,218 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-05-22 17:30:17,642 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2022-05-22 17:30:21,948 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-05-22 17:30:21,948 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXH5FDT0egGbSBkvk6bmNqckraZA7B33TuPe1lpN-TzO3TmKFGVSd5ZRC3M3YpPt1mGm/e9Qd1oUk7ICujWLV/","api_path":"/challenge/AXH5FDT0egGbSBkvk6bmNqckraZA7B33TuPe1lpN-TzO3TmKFGVSd5ZRC3M3YpPt1mGm/e9Qd1oUk7ICujWLV/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2022-05-22 17:30:21,949 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-05-22 17:30:21,951 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2022-05-22 17:30:21,954 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2022-05-22 17:30:21,956 - instabot version: 0.117.0 (api) - CRITICAL - Not logged in!
